@@ -33,7 +33,7 @@ jobs:
           target: ./package-lock.json
   
   sast-scan:
-    needs: sca-scan
+    # needs: sca-scan
     strategy:
       fail-fast: false
       # Prevent running multiple FoD scans on same release simultaneously
