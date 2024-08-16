@@ -115,7 +115,7 @@ jobs:
         env:
           SSC_URL: ${{vars.SSC_URL}}
           SSC_TOKEN: ${{secrets.SSC_TOKEN}}
-          SSC_APPVERSION: REACT:Feelio
+          SSC_APPVERSION: "terraform-demo:1.0"
 
       - name: Publish Artifacts
         if: always()
